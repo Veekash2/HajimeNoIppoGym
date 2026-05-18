@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Hajime No Ippo Gym",
+    "slug": "hajime-no-ippo-gym",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/takamura.jpg",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0A0A"
+    },
+    "scheme": "hajimegym",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/takamura.jpg",
+        "backgroundColor": "#0A0A0A"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

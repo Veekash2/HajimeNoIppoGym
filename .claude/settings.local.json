@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(node -e \"const p = require\\('./package.json'\\); console.log\\('name:', p.name, '\\\\nmain:', p.main, '\\\\nexpo version:', p.dependencies.expo\\)\")"
+    ]
+  }
+}
